@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import glob
 
-images_folder = 'Synchronized/rgb_sync/*.jpg'
+images_folder = './thermal_sync/*.jpg'
 images_names = sorted(glob.glob(images_folder))
 
 

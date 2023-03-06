@@ -2,7 +2,7 @@ import cv2
 import glob
 import numpy as np
  
-images_folder = 'RGB/*.jpg'
+images_folder = './Thermal/*.jpg'
 images_names = sorted(glob.glob(images_folder))
 images = []
 for imname in images_names:
